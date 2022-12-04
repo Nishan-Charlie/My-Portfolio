@@ -1,3 +1,6 @@
+# Author
+Nishankar.S (E/17/230) 
+
 # Personal Portfolio Website in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -10,7 +13,17 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+### Extract the file
+
+Inside the file "E/17/230_EF528" Install the dependencies.
+
+### Clone from Github
+go to the personal-portfolio and install dependencies
+
+
+### `npm install` Or `npm i`
+
+Install all the dependecies needed.
 
 ### `npm start`
 
