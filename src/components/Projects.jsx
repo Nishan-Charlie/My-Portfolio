@@ -1,8 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import NGS from "../assets/img/NGS.jpg"
+import smartHome from "../assets/img/smartHome.jpg"
+import Database from "../assets/img/Database.jpg"
+import processor from "../assets/img/processor.jpg"
+import fractal from "../assets/img/fractal.jpg"
+import QRcode from "../assets/img/qr.jpg"
+import chatApp from "../assets/img/chatApp.jpg"
+import morse from "../assets/img/morse.jpg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,42 +18,42 @@ export const Projects = () => {
     {
       title: "NGS Analysing Tool Kit",
       description: "An Online platform for researchers to analyse and find the Biomarkers for Alzimers disease. Using Machine learning techniques.",
-      imgUrl: projImg1,
+      imgUrl: NGS,
     },
     {
       title: "Smart home",
       description: "Secure mobile application to control and monitor home appliances using sensors and micro-controllers.",
-      imgUrl: projImg2,
+      imgUrl: smartHome,
     },
     {
       title: "Grocery Management System",
       description: "Web application to manage the grocery details of a supermarket in a database",
-      imgUrl: projImg3,
+      imgUrl: Database,
     },
     {
       title: "8-bit processor",
       description: "Developed an 8-bit single-cycle CPU to support a custom ISA with an ALU, an 8x8 register file, control logic, and a memory sub-system with caching techniques.",
-      imgUrl: projImg1,
+      imgUrl: processor,
     },
     {
       title: "Tool to generate and display fractals",
       description: "A tool to create mandelbrot or Julia fractals using Java OOP concepts. Multi-threading and Synchronization techniques were used.",
-      imgUrl: projImg2,
+      imgUrl: fractal,
     },
     {
       title: "QR code Generator",
       description: "A QR code-generating application using ASCII characters without any external C libraries.",
-      imgUrl: projImg3,
+      imgUrl: QRcode,
     },
     {
       title: "Chat Application",
       description: "Real-Time Chat application where users can register, login, and join a group to chat",
-      imgUrl: projImg1,
+      imgUrl: chatApp,
     },
     {
       title: "Morse Code Receiver and Transmitter",
       description: "A real-time morse code generator using python and Arduino microcontroller. LED, Buzzer used for the Transmitter, and LDR used as the Receiver.",
-      imgUrl: projImg2,
+      imgUrl: morse,
     },
   ];
 

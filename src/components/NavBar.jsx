@@ -45,6 +45,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#Education" className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('education')}>Education</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
@@ -52,7 +53,8 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/nishankar-sathiyamohan/"><img src={LinkedInIcon} alt="LinkedIn" /></a>
                 <a href="https://github.com/Nishan-Charlie"><img src={gitHubIcon} alt="Github"  /></a>
-                <a href="mailto:nishannishankar@gmail.com"><img src={navIcon3} alt="Mail" className="Mail"/></a>
+                <a href="mailto:nishannishankar@gmail.com"><img src={navIcon3} alt="Mail" className="Mail" /></a>
+                
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

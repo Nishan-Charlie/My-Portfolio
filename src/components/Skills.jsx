@@ -38,19 +38,19 @@ export const Skills = () => {
                         <p>I'm Passinate about machine learning and web Development. I'm a intermidiate in both of them. I also good at Deep Learning and Clouds (AWS). I'm always a learner and love to learn new things😊</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="WebDevelopmentMeter" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="MachineLearning Meter" />
                                 <h5>Machine Learning</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="deepLearning meter" />
                                 <h5>Deep Learning</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="CloudMeter" />
                                 <h5>Cloud</h5>
                             </div>
                         </Carousel>
@@ -58,7 +58,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="colorSharp-Skill-Background" />
     </section>
   )
 }
