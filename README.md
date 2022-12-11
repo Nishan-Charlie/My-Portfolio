@@ -47,3 +47,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+### `Visit my page`
+
+I Nishankar E17230 Hosted my portfolio on the Github so that you can visit it
+I developed it using React js
+Visit my webSite [deployment]( https://nishan-charlie.github.io/My-Portfolio/) 
